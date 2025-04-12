@@ -1,0 +1,8 @@
+package in.ashokit.dao;
+
+public class UserDao {
+	public UserDao() {
+		// TODO Auto-generated constructor stub
+		System.out.println(P);
+	}
+}

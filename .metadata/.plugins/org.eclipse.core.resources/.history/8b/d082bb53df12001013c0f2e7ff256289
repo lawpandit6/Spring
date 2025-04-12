@@ -1,0 +1,6 @@
+package in.ashokit.config;
+
+@cofiguration
+public class ConfigClass {
+
+}

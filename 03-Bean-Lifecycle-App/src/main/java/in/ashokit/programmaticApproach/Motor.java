@@ -1,0 +1,22 @@
+package in.ashokit.programmaticApproach;
+
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Motor implements InitializingBean, DisposableBean {
+	public Motor() {
+		System.out.println("Motor :: Constructor");
+	}
+
+	@Override
+	public void afterPropertiesSet() throws Exception {
+
+		System.out.println("Bean LifeCycle started...");
+	}
+
+	@Override
+	public void destroy() throws Exception {
+
+		System.out.println("Bean LifeCycle ended..");
+	}
+}

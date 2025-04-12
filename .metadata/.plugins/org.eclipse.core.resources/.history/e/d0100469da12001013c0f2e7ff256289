@@ -1,0 +1,8 @@
+package in.ashokit.controller;
+
+@component
+public class ContollerClass {
+	public ContollerClass() {
+		System.out.println("ControllerClass::Constructor");
+	}
+}

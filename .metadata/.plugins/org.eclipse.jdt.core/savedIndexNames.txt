@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+C:\law data1\NOTES\PROGRAMS\SPRING\.metadata\.plugins\org.eclipse.jdt.core
+2064023576.index
+610883649.index
+1992889214.index
+2042514315.index
+2347577799.index
+3897631656.index
+2592854001.index
+614687774.index
+2825614608.index
+653293150.index
+1865797976.index

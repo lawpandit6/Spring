@@ -1,0 +1,9 @@
+package in.ashokit.service;
+
+
+public class ReportService {
+
+	public ReportService() {
+		System.out.println("ReportService::Constructor");
+	}
+}

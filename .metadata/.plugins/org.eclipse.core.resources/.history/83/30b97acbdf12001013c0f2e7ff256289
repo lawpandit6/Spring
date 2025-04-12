@@ -1,0 +1,8 @@
+package in.ashokit.service;
+
+public class SendReport {
+
+	public IReport report;
+	
+	
+}

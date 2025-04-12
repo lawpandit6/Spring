@@ -1,0 +1,18 @@
+package in.ashokit.service;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
+
+@Service("eidnfj")
+@Primary
+public class PdfReport implements IReport {
+
+	public PdfReport() {
+		System.out.println("PdfReport::Contructor");
+	}
+
+	@Override
+	public void generateReport() {
+		System.out.println("Pdf Report Generated...");
+	}
+}

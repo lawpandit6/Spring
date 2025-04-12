@@ -1,0 +1,20 @@
+package in.law;
+
+import java.lang.reflect.Field;
+
+public class Main {
+
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) throws Exception {
+
+		Class<?> clz = Class.forName("in.law.Car");
+		Object obj = clz.newInstance();
+		Car c=(Car) obj;
+		
+		Field field = clz.getDeclaredField("eng");
+		field.setAccessible(true);
+		
+		field.set(c, new DieselEngine());
+
+	}
+}

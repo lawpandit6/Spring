@@ -1,0 +1,12 @@
+package in.ashokit.configuration;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan
+public class ConfigeClass {
+	public ConfigeClass() {
+		System.out.println("ConfigeClass::Constructor");
+	}
+}

@@ -1,0 +1,20 @@
+package in.ashokit.service;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
+
+@Service
+@Primary
+@Qualifier(value = "byType")
+public class PdfReport implements IReport {
+
+	public PdfReport() {
+		System.out.println("PdfReport::Contructor");
+	}
+
+	@Override
+	public void generateReport() {
+		System.out.println("Pdf Report Generated...");
+	}
+}

@@ -1,0 +1,7 @@
+package in.ashokit.main;
+
+public class MainAppAnnotation {
+	public static void main(String[] args) {
+		ApplicationContext context=new ConfigurableApplicationContext();
+	}
+}

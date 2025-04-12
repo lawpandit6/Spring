@@ -1,0 +1,16 @@
+package in.ashokit.annotation;
+
+public class Motor {
+
+	public void Motor() {
+		System.out.println("Motor:: constructor");
+	}
+	
+	public void m1() {
+		System.out.println("m1() called...");
+	}
+	
+	public void doWork() {
+		
+	}
+}

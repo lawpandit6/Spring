@@ -1,0 +1,6 @@
+package in.law;
+
+public class Main {
+	Car c=new Car(new PetrolEngine());
+	c.drive();
+}

@@ -1,0 +1,9 @@
+package in.ashokit.programmaticApproach;
+
+import org.springframework.beans.factory.InitializingBean;
+
+public class Motor implements InitializingBean{
+  public Motor() {
+	System.out.println("Motor :: ");
+}
+}

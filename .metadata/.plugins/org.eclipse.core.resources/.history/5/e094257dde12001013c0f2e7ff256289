@@ -1,0 +1,15 @@
+package in.ashokit.service;
+
+public class ExcelReport implements IReport {
+
+	public ExcelReport() {
+		System.out.println("ExcelReport:");
+	}
+	
+	@Override
+public void generateReport() {
+	// TODO Auto-generated method stub
+	
+}
+
+}

@@ -1,0 +1,8 @@
+package in.ashokit.configuration;
+
+@Con
+public class ConfigeClass {
+	public ConfigeClass() {
+		System.out.println("ConfigeClass::Constructor");
+	}
+}

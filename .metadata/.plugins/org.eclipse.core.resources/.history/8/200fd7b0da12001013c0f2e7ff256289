@@ -1,0 +1,7 @@
+package in.ashokit.configuration;
+
+public class ConfigeClass {
+	public ConfigeClass() {
+		// TODO Auto-generated constructor stub
+	}
+}

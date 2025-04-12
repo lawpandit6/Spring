@@ -1,0 +1,22 @@
+package in.law;
+
+import java.lang.reflect.Field;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+
+		Class<?> clz = Class.forName("in.law.Car");
+
+		Object object = clz.getDeclaredConstructor().newInstance();
+		Car c = (Car) object;
+
+		Field field = clz.getDeclaredField("eng");
+		field.setAccessible(true);
+
+		field.set(c, new DieselEngine());
+
+		c.drive();
+
+	}
+}

@@ -1,0 +1,10 @@
+package in.ashokit.service;
+
+public class Generate {
+
+	public IReport report;
+	
+	public void generateReport() {
+		
+	}
+}

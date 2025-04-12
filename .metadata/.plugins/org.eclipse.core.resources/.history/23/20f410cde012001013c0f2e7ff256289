@@ -1,0 +1,11 @@
+package in.ashokit.main;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import in.ashokit.config.ConfigClass;
+
+public class App {
+public static void main(String[] args) {
+	AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext(ConfigClass.class);
+}
+}

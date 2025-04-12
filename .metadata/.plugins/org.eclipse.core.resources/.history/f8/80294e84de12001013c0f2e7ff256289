@@ -1,0 +1,15 @@
+package in.ashokit.service;
+
+public class ExcelReport implements IReport {
+
+	public ExcelReport() {
+		System.out.println("ExcelReport::Constructor");
+	}
+	
+	@Override
+public void generateReport() {
+	System.out.println("Ex");
+	
+}
+
+}

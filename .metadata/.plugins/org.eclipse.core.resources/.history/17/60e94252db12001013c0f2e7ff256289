@@ -1,0 +1,9 @@
+package in.ashokit.main;
+
+import org.springframework.context.ApplicationContext;
+
+public class MainAppAnnotation {
+	public static void main(String[] args) {
+		ApplicationContext context=new ConfigurableApplicationContext();
+	}
+}

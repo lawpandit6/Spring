@@ -1,0 +1,8 @@
+package in.ashokit.beans;
+
+public class PetrolEngine {
+	
+	public PetrolEngine() {
+		// TODO Auto-generated constructor stub
+	}
+}

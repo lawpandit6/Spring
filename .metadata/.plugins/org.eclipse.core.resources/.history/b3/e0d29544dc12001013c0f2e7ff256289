@@ -1,0 +1,11 @@
+package in.ashokit.configuration;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@
+public class ConfigeClass {
+	public ConfigeClass() {
+		System.out.println("ConfigeClass::Constructor");
+	}
+}
